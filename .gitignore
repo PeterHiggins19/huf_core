@@ -30,3 +30,7 @@ Thumbs.db
 
 # Partner HTML backups created by patch scripts
 notes/partner_html_backup_*/
+
+# private notes
+notes/_private/
+notes/_private/**

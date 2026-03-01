@@ -1,0 +1,1304 @@
+{
+  "version": "1.0",
+  "generated": "2026-03-01",
+  "documents": [
+    {
+      "doc_id": "<DOC_ID>",
+      "title": "doc inventory",
+      "status": "<status>",
+      "lane": "<LANE>",
+      "huf_version": "<HUF_VERSION>",
+      "doc_version": "<DOC_VERSION>",
+      "responsible_operator": "<name>",
+      "canonical_path": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/scripts/doc_inventory.py",
+      "codes": [
+        "..."
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0-E4",
+      "posture": "DEF/OP/INT/THM",
+      "weights": null,
+      "caps": null,
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/scripts/doc_inventory.py",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.DRAFT.BOOK.MANUSCRIPT.ADVANCED_MATH",
+      "title": "index",
+      "status": "draft",
+      "lane": "DRAFT",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.2.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/books/advanced_mathematics/index.md",
+      "codes": [
+        "BOOK",
+        "MATH",
+        "ADVANCED"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/books/advanced_mathematics/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.DRAFT.CASE.NOTE.RAMSAR_CASE_README",
+      "title": "README",
+      "status": "draft",
+      "lane": "DRAFT",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "cases/ramsar_case/README.md",
+      "codes": [
+        "CASE",
+        "RAMSAR"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E1",
+      "posture": "OP",
+      "weights": {
+        "op": 0.51,
+        "tool": 0.49,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/cases/ramsar_case/README.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.DRAFT.SOFTWARE.CODE.HUF_DIAGNOSTIC",
+      "title": "huf diagnostic",
+      "status": "draft",
+      "lane": "DRAFT",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "notes/code_snippets/huf_code/huf_diagnostic.jsx",
+      "codes": [
+        "SOFTWARE",
+        "UI"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/code_snippets/huf_code/huf_diagnostic.jsx",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.DRAFT.SOFTWARE.CODE.HUF_TODO",
+      "title": "huf todo",
+      "status": "draft",
+      "lane": "DRAFT",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "notes/code_snippets/huf_code/huf_todo.jsx",
+      "codes": [
+        "SOFTWARE",
+        "UI"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/code_snippets/huf_code/huf_todo.jsx",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.DRAFT.SOFTWARE.SCRIPT.RAMSAR_HUF_DEMO",
+      "title": "ramsar huf demo",
+      "status": "draft",
+      "lane": "DRAFT",
+      "huf_version": "1.1.8",
+      "doc_version": "v2",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "demos/ramsar_huf_demo.py",
+      "codes": [
+        "SOFTWARE",
+        "DEMO",
+        "RAMSAR"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E2",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/demos/ramsar_huf_demo.py",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.BOOK.INDEX.BOOKS",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/books/index.md",
+      "codes": [
+        "BOOK",
+        "INDEX"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E1",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/books/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.ANSWERS.00_ORIENTATION",
+      "title": "answers",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/00_orientation/answers.md",
+      "codes": [
+        "LRN",
+        "ANSWERS",
+        "00_ORIENTATION"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/00_orientation/answers.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.ANSWERS.01_FOUNDATIONS",
+      "title": "answers",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/01_foundations/answers.md",
+      "codes": [
+        "LRN",
+        "ANSWERS",
+        "01_FOUNDATIONS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/01_foundations/answers.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.ANSWERS.02_FORMAL_CORE",
+      "title": "answers",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/02_formal_core/answers.md",
+      "codes": [
+        "LRN",
+        "ANSWERS",
+        "02_FORMAL_CORE"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/02_formal_core/answers.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.ANSWERS.03_ARTIFACTS",
+      "title": "answers",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/03_artifacts/answers.md",
+      "codes": [
+        "LRN",
+        "ANSWERS",
+        "03_ARTIFACTS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/03_artifacts/answers.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.ANSWERS.04_RUNNING_EXAMPLES",
+      "title": "answers",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/04_running_examples/answers.md",
+      "codes": [
+        "LRN",
+        "ANSWERS",
+        "04_RUNNING_EXAMPLES"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/04_running_examples/answers.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.ANSWERS.05_CASE_STUDIES",
+      "title": "answers",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/05_case_studies/answers.md",
+      "codes": [
+        "LRN",
+        "ANSWERS",
+        "05_CASE_STUDIES"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/05_case_studies/answers.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.ANSWERS.06_PARTNER_PILOTS",
+      "title": "answers",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/06_partner_pilots/answers.md",
+      "codes": [
+        "LRN",
+        "ANSWERS",
+        "06_PARTNER_PILOTS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/06_partner_pilots/answers.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.ANSWERS.07_ADVANCED_MATH",
+      "title": "answers",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/07_advanced_math/answers.md",
+      "codes": [
+        "LRN",
+        "ANSWERS",
+        "07_ADVANCED_MATH"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/07_advanced_math/answers.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.INDEX.LEARNING_TRACK",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/index.md",
+      "codes": [
+        "LRN",
+        "INDEX"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E1",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.MODULE.00_ORIENTATION",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/00_orientation/index.md",
+      "codes": [
+        "LRN",
+        "00_ORIENTATION"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/00_orientation/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.MODULE.01_FOUNDATIONS",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/01_foundations/index.md",
+      "codes": [
+        "LRN",
+        "01_FOUNDATIONS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/01_foundations/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.MODULE.02_FORMAL_CORE",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/02_formal_core/index.md",
+      "codes": [
+        "LRN",
+        "02_FORMAL_CORE"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/02_formal_core/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.MODULE.03_ARTIFACTS",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/03_artifacts/index.md",
+      "codes": [
+        "LRN",
+        "03_ARTIFACTS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/03_artifacts/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.MODULE.04_RUNNING_EXAMPLES",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/04_running_examples/index.md",
+      "codes": [
+        "LRN",
+        "04_RUNNING_EXAMPLES"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/04_running_examples/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.MODULE.05_CASE_STUDIES",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/05_case_studies/index.md",
+      "codes": [
+        "LRN",
+        "05_CASE_STUDIES"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/05_case_studies/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.MODULE.06_PARTNER_PILOTS",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/06_partner_pilots/index.md",
+      "codes": [
+        "LRN",
+        "06_PARTNER_PILOTS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/06_partner_pilots/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.MODULE.07_ADVANCED_MATH",
+      "title": "index",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/07_advanced_math/index.md",
+      "codes": [
+        "LRN",
+        "07_ADVANCED_MATH"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/07_advanced_math/index.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.QUIZ.00_ORIENTATION",
+      "title": "quiz",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/00_orientation/quiz.md",
+      "codes": [
+        "LRN",
+        "QUIZ",
+        "00_ORIENTATION"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/00_orientation/quiz.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.QUIZ.01_FOUNDATIONS",
+      "title": "quiz",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/01_foundations/quiz.md",
+      "codes": [
+        "LRN",
+        "QUIZ",
+        "01_FOUNDATIONS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/01_foundations/quiz.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.QUIZ.02_FORMAL_CORE",
+      "title": "quiz",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/02_formal_core/quiz.md",
+      "codes": [
+        "LRN",
+        "QUIZ",
+        "02_FORMAL_CORE"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/02_formal_core/quiz.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.QUIZ.03_ARTIFACTS",
+      "title": "quiz",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/03_artifacts/quiz.md",
+      "codes": [
+        "LRN",
+        "QUIZ",
+        "03_ARTIFACTS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/03_artifacts/quiz.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.QUIZ.04_RUNNING_EXAMPLES",
+      "title": "quiz",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/04_running_examples/quiz.md",
+      "codes": [
+        "LRN",
+        "QUIZ",
+        "04_RUNNING_EXAMPLES"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/04_running_examples/quiz.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.QUIZ.05_CASE_STUDIES",
+      "title": "quiz",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/05_case_studies/quiz.md",
+      "codes": [
+        "LRN",
+        "QUIZ",
+        "05_CASE_STUDIES"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/05_case_studies/quiz.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.QUIZ.06_PARTNER_PILOTS",
+      "title": "quiz",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/06_partner_pilots/quiz.md",
+      "codes": [
+        "LRN",
+        "QUIZ",
+        "06_PARTNER_PILOTS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/06_partner_pilots/quiz.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.LRN.QUIZ.07_ADVANCED_MATH",
+      "title": "quiz",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "docs/learning/07_advanced_math/quiz.md",
+      "codes": [
+        "LRN",
+        "QUIZ",
+        "07_ADVANCED_MATH"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/docs/learning/07_advanced_math/quiz.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.ORG.NOTE.AI_USE_STANDARD",
+      "title": "ai use standard",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.2.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "notes/_org/ai_use_standard.md",
+      "codes": [
+        "ORG",
+        "AI_DISCLOSURE",
+        "SAFETY"
+      ],
+      "artifacts": [
+        "TR",
+        "EB"
+      ],
+      "evidence": "E0",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/_org/ai_use_standard.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.ORG.POLICY.DOC_GOVERNANCE",
+      "title": "doc governance",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.2.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "notes/_org/doc_governance.md",
+      "codes": [
+        "ORG",
+        "GOVERNANCE"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E1",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/_org/doc_governance.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.SOFTWARE.INDEX.DEMOS",
+      "title": "README",
+      "status": "draft",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.1.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "demos/README.md",
+      "codes": [
+        "SOFTWARE",
+        "DEMOS"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E2",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/demos/README.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.WIKI.NOTE.WIKI_FOURTH_MONITORING_CATEGORY_EXPANDED",
+      "title": "wiki fourth monitoring category expanded",
+      "status": "release",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.0.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "notes/wiki_pages/wiki_fourth_monitoring_category_expanded.md",
+      "codes": [
+        "WIKI"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E1",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/wiki_pages/wiki_fourth_monitoring_category_expanded.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.WIKI.NOTE.WIKI_HUF_TAXONOMY_COMPLETE",
+      "title": "wiki huf taxonomy complete",
+      "status": "release",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.0.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "notes/wiki_pages/wiki_huf_taxonomy_complete.md",
+      "codes": [
+        "WIKI"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E1",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/wiki_pages/wiki_huf_taxonomy_complete.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.WIKI.NOTE.WIKI_MANUFACTURING_ELECTRONICS_ASSEMBLY",
+      "title": "wiki manufacturing electronics assembly",
+      "status": "release",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.0.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "notes/wiki_pages/wiki_manufacturing_electronics_assembly.md",
+      "codes": [
+        "WIKI"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E1",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/wiki_pages/wiki_manufacturing_electronics_assembly.md",
+      "source_type": "text"
+    },
+    {
+      "doc_id": "HUF.REL.WIKI.NOTE.WIKI_OPERATOR_ENTRY_POINTS",
+      "title": "wiki operator entry points",
+      "status": "release",
+      "lane": "RELEASE",
+      "huf_version": "1.1.8",
+      "doc_version": "v0.0.0",
+      "responsible_operator": "Peter Higgins",
+      "canonical_path": "notes/wiki_pages/wiki_operator_entry_points.md",
+      "codes": [
+        "WIKI"
+      ],
+      "artifacts": [
+        "CM",
+        "AS",
+        "TR",
+        "EB"
+      ],
+      "evidence": "E1",
+      "posture": "OP",
+      "weights": {
+        "op": 0.8,
+        "tool": 0.2,
+        "peer": 0.0
+      },
+      "caps": {
+        "op_min": 0.51,
+        "tool_max": 0.49
+      },
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/wiki_pages/wiki_operator_entry_points.md",
+      "source_type": "text"
+    }
+  ],
+  "collisions": {
+    "<DOC_ID>": [
+      "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/_org/templates/header_md.txt",
+      "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/scripts/doc_inventory.py"
+    ]
+  }
+}
