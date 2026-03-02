@@ -1,0 +1,2 @@
+Add to mkdocs.yml nav (suggested under Books or Documentation):
+  - Current documents (authoritative): current_documents.md

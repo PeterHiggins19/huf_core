@@ -1,22 +1,28 @@
-# Patch: enforce "current documents supersede" for Books
+# Auto-generated current documents catalog
 
 Adds:
-- notes/_org/current_sources.json
-- scripts/sync_current_sources.py
+- scripts/generate_current_documents_catalog.py
+- notes/_org/current_documents_catalog_README.md
 
-Run dry-run:
+Run (dry-run):
 ```powershell
-.\.venv\Scripts\python scripts\sync_current_sources.py
+.\.venv\Scripts\python scripts\generate_current_documents_catalog.py
 ```
 
-Apply:
+Write outputs:
 ```powershell
-.\.venv\Scripts\python scripts\sync_current_sources.py --write
+.\.venv\Scripts\python scripts\generate_current_documents_catalog.py --write
+```
+
+Fail non-zero if any orphans (optional gate):
+```powershell
+.\.venv\Scripts\python scripts\generate_current_documents_catalog.py --write --fail-on-orphans
+```
+
+Then:
+```powershell
 .\.venv\Scripts\python -m mkdocs build --strict
-git add -A
-git commit -m "Books: link to current_documents sources (handbook/reference)"
-git push
-.\.venv\Scripts\python -m mkdocs gh-deploy --force
 ```
 
-If you later move the canonical DOCX to a new doc_id folder, update `notes/_org/current_sources.json`.
+Add to mkdocs.yml nav (suggested under Books or Documentation):
+- Current documents (authoritative): current_documents.md
