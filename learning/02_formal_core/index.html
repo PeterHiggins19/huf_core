@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#formal-core" class="md-skip">
+        <a href="#formal-core-conservative" class="md-skip">
           Skip to content
         </a>
       
@@ -3380,6 +3380,58 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#minimal-formal-core" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Minimal formal core
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invariance-what-huf-preserves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Invariance (what HUF preserves)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-we-are-not-claiming-here" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What we are NOT claiming here
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-the-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run the example
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3464,8 +3516,51 @@
   
 
 
-<h1 id="formal-core">Formal Core<a class="headerlink" href="#formal-core" title="Permanent link">&para;</a></h1>
-<p>(TBD)</p>
+<h1 id="formal-core-conservative">Formal core (conservative)<a class="headerlink" href="#formal-core-conservative" title="Permanent link">&para;</a></h1>
+<p>What this page is:
+A minimal “formal core” that is safe to state publicly: normalized weights, regimes as sub-objects, and sum-preserving mappings.</p>
+<p>Why it matters:
+It separates what’s formally defined from interpretive extensions (analogies, cross-domain comparisons).</p>
+<p>What you’ll see:
+- Objects, regimes, morphisms (minimal)
+- Invariance statement (sum preservation)
+- What is <em>not</em> claimed here</p>
+<h2 id="minimal-formal-core">Minimal formal core<a class="headerlink" href="#minimal-formal-core" title="Permanent link">&para;</a></h2>
+<p>A convenient formalization is:</p>
+<ul>
+<li>An <strong>object</strong> is a pair <code>(V, ρ)</code> where:</li>
+<li><code>V</code> is a finite-dimensional real vector space</li>
+<li>
+<p><code>ρ</code> assigns nonnegative weights to a basis, with <code>Σ ρ = 1</code></p>
+</li>
+<li>
+<p>A <strong>regime</strong> is a sub-collection <code>R ⊆ V</code> that is normalized locally:</p>
+</li>
+<li>
+<p><code>Σ_{r in R} ρ(r) = 1</code></p>
+</li>
+<li>
+<p>A <strong>morphism</strong> is a map that preserves the relevant sums under transformation.</p>
+</li>
+</ul>
+<p>This is the “sum-preserving” backbone used by the implementation.</p>
+<h2 id="invariance-what-huf-preserves">Invariance (what HUF preserves)<a class="headerlink" href="#invariance-what-huf-preserves" title="Permanent link">&para;</a></h2>
+<p>At minimum, HUF preserves:</p>
+<ul>
+<li><strong>global normalization</strong> (the total distribution sums to 1)</li>
+<li><strong>local normalization</strong> inside regimes (when computed)</li>
+</ul>
+<h2 id="what-we-are-not-claiming-here">What we are NOT claiming here<a class="headerlink" href="#what-we-are-not-claiming-here" title="Permanent link">&para;</a></h2>
+<p>This module does <strong>not</strong> claim that:
+- HUF is equivalent to sheaf theory / cohomology, topology, Langlands, etc.
+- cross-domain “applications” are established results</p>
+<p>Those can exist as <strong>interpretive motivation</strong> elsewhere, but they’re not treated as formal results in this learning track.</p>
+<h2 id="run-the-example">Run the example<a class="headerlink" href="#run-the-example" title="Permanent link">&para;</a></h2>
+<p>Any run gives you the invariance story in artifacts:
+- AS shows normalized shares
+- EB shows discarded mass explicitly</p>
+<p>Next steps:
+- Go to <strong>03 Artifacts</strong> to learn how to read the outputs like a reviewer.</p>
 
 
 

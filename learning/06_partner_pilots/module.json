@@ -2,8 +2,14 @@
   "id": "06_partner_pilots",
   "title": "Partner Pilots",
   "level": 6,
-  "prereqs": [],
-  "outcomes": [],
+  "prereqs": [
+    "05_case_studies"
+  ],
+  "outcomes": [
+    "Explain the module concepts in plain language",
+    "Run at least one command/example relevant to the module",
+    "Interpret CM/AS/TR/EB outputs at the appropriate level"
+  ],
   "status": "draft",
   "weights": {
     "op": 0.8,

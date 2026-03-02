@@ -3380,6 +3380,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-pipeline-mental-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The pipeline (mental model)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-huf-outputs-every-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What “HUF” outputs every run
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-the-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run the example
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3465,7 +3506,40 @@
 
 
 <h1 id="orientation">Orientation<a class="headerlink" href="#orientation" title="Permanent link">&para;</a></h1>
-<p>(TBD)</p>
+<p>What this page is:
+A 10-minute introduction to what HUF <em>does</em> and how to recognize when you’re already inside a HUF-shaped problem.</p>
+<p>Why it matters:
+If your work has <strong>regimes</strong> (tenants, departments, sources, categories) and you need to understand <strong>where the mass is</strong> and <strong>what got discarded</strong>, HUF provides a repeatable audit lens.</p>
+<p>What you’ll see:
+- The core pipeline (regimes → accounting → retention → coherence → artifacts)
+- What the four artifacts mean
+- A first runnable demo</p>
+<h2 id="the-pipeline-mental-model">The pipeline (mental model)<a class="headerlink" href="#the-pipeline-mental-model" title="Permanent link">&para;</a></h2>
+<p>1) <strong>Regimes</strong>: split items by a label (tenant/source/category).
+2) <strong>Mass accounting</strong>: compute total weight per regime and a normalized distribution.
+3) <strong>Retention (optional)</strong>: keep the most-mass items; log discards; renormalize explicitly.
+4) <strong>Coherence / concentration</strong>: measure dominance and drift.
+5) <strong>Artifacts out</strong>: write CM/AS/TR/EB.</p>
+<h2 id="what-huf-outputs-every-run">What “HUF” outputs every run<a class="headerlink" href="#what-huf-outputs-every-run" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>CM — Coherence Map:</strong> ranked regimes + dominance signals  </li>
+<li><strong>AS — Active Set:</strong> retained items + global/local shares  </li>
+<li><strong>TR — Trace Report:</strong> “why it stayed” and provenance  </li>
+<li><strong>EB — Error Budget:</strong> what was discarded (by reason/regime)</li>
+</ul>
+<h2 id="run-the-example">Run the example<a class="headerlink" href="#run-the-example" title="Permanent link">&para;</a></h2>
+<p>From repo root:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">python</span> <span class="n">scripts</span><span class="p">/</span><span class="n">bootstrap</span><span class="p">.</span><span class="n">py</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span> <span class="n">scripts</span><span class="p">/</span><span class="n">fetch_data</span><span class="p">.</span><span class="n">py</span> <span class="p">-</span><span class="n">-toronto</span> <span class="p">-</span><span class="n">-yes</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span> <span class="n">scripts</span><span class="p">/</span><span class="n">run_long_tail_demo</span><span class="p">.</span><span class="n">py</span> <span class="p">-</span><span class="n">-status</span> <span class="s2">&quot;Green Termination&quot;</span>
+</code></pre></div>
+<p>What to expect:
+- An <code>out/...</code> folder with four artifacts
+- A console line like <code>PROOF: items_to_cover_90pct 37 -&gt; 12</code> (your numbers may differ)</p>
+<p>Interpretation:
+- If the exception-only view tightens (fewer items cover 90%), that’s a practical long-tail signal.</p>
+<p>Next steps:
+- Proceed to <strong>01 Foundations</strong> to define regimes, normalization, and retention precisely.</p>
 
 
 

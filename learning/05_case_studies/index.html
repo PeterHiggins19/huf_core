@@ -3380,6 +3380,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#case-anatomy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Case anatomy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fast-reading-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fast reading order
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3464,8 +3494,32 @@
   
 
 
-<h1 id="case-studies">Case Studies<a class="headerlink" href="#case-studies" title="Permanent link">&para;</a></h1>
-<p>(TBD)</p>
+<h1 id="case-studies">Case studies<a class="headerlink" href="#case-studies" title="Permanent link">&para;</a></h1>
+<p>What this page is:
+How HUF case studies are structured and how to read them like a reviewer.</p>
+<p>Why it matters:
+A case is where you prove “this is reproducible” and “nothing disappeared silently”.</p>
+<p>What you’ll see:
+- Case folder anatomy
+- What “reproducible” means in HUF terms
+- A reading order (fast)</p>
+<h2 id="case-anatomy">Case anatomy<a class="headerlink" href="#case-anatomy" title="Permanent link">&para;</a></h2>
+<p>Typical layout:</p>
+<ul>
+<li><code>inputs/</code> (documented)</li>
+<li><code>artifact_1_*.csv</code> (CM)</li>
+<li><code>artifact_2_*.csv</code> (AS)</li>
+<li><code>artifact_3_*.jsonl</code> (TR)</li>
+<li><code>artifact_4_*.json</code> (EB)</li>
+<li><code>meta.json</code> / <code>run_stamp.json</code> (run metadata)</li>
+</ul>
+<h2 id="fast-reading-order">Fast reading order<a class="headerlink" href="#fast-reading-order" title="Permanent link">&para;</a></h2>
+<p>1) EB — what was discarded (and why)
+2) CM — where the mass is
+3) AS — what remained and shares
+4) TR — decision log for edge cases</p>
+<p>Next steps:
+- <strong>06 Partner pilots</strong> for “how to do this with a real organization”</p>
 
 
 

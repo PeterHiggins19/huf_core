@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#advanced-math" class="md-skip">
+        <a href="#advanced-math-practical" class="md-skip">
           Skip to content
         </a>
       
@@ -3380,6 +3380,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#concentration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concentration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dominance-drift" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dominance / drift
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-posture-conservative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reading posture (conservative)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3464,8 +3505,32 @@
   
 
 
-<h1 id="advanced-math">Advanced Math<a class="headerlink" href="#advanced-math" title="Permanent link">&para;</a></h1>
-<p>(TBD)</p>
+<h1 id="advanced-math-practical">Advanced math (practical)<a class="headerlink" href="#advanced-math-practical" title="Permanent link">&para;</a></h1>
+<p>What this page is:
+A practical summary of “advanced” metrics used in HUF runs (concentration, dominance, drift), without claiming formal universality.</p>
+<p>Why it matters:
+The <em>same artifacts</em> become more useful when you know what signals to look for.</p>
+<p>What you’ll see:
+- concentration measures (e.g., “items to cover 90%”)
+- dominance/delta comparisons between views
+- drift framing (conservative)</p>
+<h2 id="concentration">Concentration<a class="headerlink" href="#concentration" title="Permanent link">&para;</a></h2>
+<p>A common headline metric:
+- <strong>items_to_cover_90pct</strong>
+  - smaller means more concentrated
+  - compare baseline vs exception-only</p>
+<h2 id="dominance-drift">Dominance / drift<a class="headerlink" href="#dominance-drift" title="Permanent link">&para;</a></h2>
+<p>Look at how top regimes reorder between runs:
+- CM shows the regime ranking
+- AS shows what items drive it</p>
+<h2 id="reading-posture-conservative">Reading posture (conservative)<a class="headerlink" href="#reading-posture-conservative" title="Permanent link">&para;</a></h2>
+<p>Use these signals as:
+- <strong>evidence</strong> for where to look
+- not as proofs of causality</p>
+<p>If you want deeper formal work:
+- see <code>docs/books/advanced_mathematics/index.md</code></p>
+<p>Next steps:
+- Re-run a case and write a short reviewer note using CM/AS/TR/EB.</p>
 
 
 

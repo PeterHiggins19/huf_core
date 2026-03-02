@@ -3380,6 +3380,58 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#traffic-baseline-vs-exception-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traffic: baseline vs exception-only
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#markham-civic-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Markham (civic budget)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planck-optional-large-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Planck (optional / large input)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vector-db-coherence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vector DB coherence
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3464,8 +3516,34 @@
   
 
 
-<h1 id="running-examples">Running Examples<a class="headerlink" href="#running-examples" title="Permanent link">&para;</a></h1>
-<p>(TBD)</p>
+<h1 id="running-examples">Running examples<a class="headerlink" href="#running-examples" title="Permanent link">&para;</a></h1>
+<p>What this page is:
+How to run the canonical examples and what each one demonstrates.</p>
+<p>Why it matters:
+Examples create intuition fast — especially for the “retention can strengthen what remains” inversion.</p>
+<p>What you’ll see:
+- Traffic baseline vs anomaly (long tail)
+- Markham (civic budgets)
+- Planck (scientific dataset)
+- Vector DB coherence (retrieval regimes)</p>
+<h2 id="traffic-baseline-vs-exception-only">Traffic: baseline vs exception-only<a class="headerlink" href="#traffic-baseline-vs-exception-only" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">python</span> <span class="n">scripts</span><span class="p">/</span><span class="n">bootstrap</span><span class="p">.</span><span class="n">py</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span> <span class="n">scripts</span><span class="p">/</span><span class="n">fetch_data</span><span class="p">.</span><span class="n">py</span> <span class="p">-</span><span class="n">-toronto</span> <span class="p">-</span><span class="n">-yes</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span> <span class="n">scripts</span><span class="p">/</span><span class="n">run_long_tail_demo</span><span class="p">.</span><span class="n">py</span> <span class="p">-</span><span class="n">-status</span> <span class="s2">&quot;Green Termination&quot;</span>
+</code></pre></div>
+<p>Look for:
+- tightened concentration in exception-only view
+- EB showing discarded mass explicitly</p>
+<h2 id="markham-civic-budget">Markham (civic budget)<a class="headerlink" href="#markham-civic-budget" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span> <span class="n">-m</span> <span class="n">huf</span> <span class="p">-</span><span class="n">-case</span> <span class="n">markham</span>
+</code></pre></div>
+<h2 id="planck-optional-large-input">Planck (optional / large input)<a class="headerlink" href="#planck-optional-large-input" title="Permanent link">&para;</a></h2>
+<p>Planck inputs may be large; see the Planck case page in docs before running.</p>
+<h2 id="vector-db-coherence">Vector DB coherence<a class="headerlink" href="#vector-db-coherence" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span> <span class="n">examples</span><span class="p">/</span><span class="n">run_vector_db_demo</span><span class="p">.</span><span class="n">py</span>
+</code></pre></div>
+<p>Next steps:
+- <strong>05 Case studies</strong> for how to read and package a case.</p>
 
 
 

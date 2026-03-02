@@ -2,8 +2,14 @@
   "id": "04_running_examples",
   "title": "Running Examples",
   "level": 4,
-  "prereqs": [],
-  "outcomes": [],
+  "prereqs": [
+    "03_artifacts"
+  ],
+  "outcomes": [
+    "Explain the module concepts in plain language",
+    "Run at least one command/example relevant to the module",
+    "Interpret CM/AS/TR/EB outputs at the appropriate level"
+  ],
   "status": "draft",
   "weights": {
     "op": 0.8,

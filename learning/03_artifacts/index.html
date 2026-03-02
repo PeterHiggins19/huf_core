@@ -3380,6 +3380,69 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#artifact-1-coherence-map-cm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Artifact 1 — Coherence Map (CM)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artifact-2-active-set-as" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Artifact 2 — Active Set (AS)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artifact-3-trace-report-tr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Artifact 3 — Trace Report (TR)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artifact-4-error-budget-eb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Artifact 4 — Error Budget (EB)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-the-example-open-artifacts-quickly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run the example (open artifacts quickly)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3465,7 +3528,47 @@
 
 
 <h1 id="artifacts">Artifacts<a class="headerlink" href="#artifacts" title="Permanent link">&para;</a></h1>
-<p>(TBD)</p>
+<p>What this page is:
+A reviewer-oriented guide to the four artifacts produced by HUF.</p>
+<p>Why it matters:
+HUF is “artifact-first”: it’s designed to be audited, not just executed.</p>
+<p>What you’ll see:
+- What each artifact is for
+- How to read it
+- Common interpretation mistakes</p>
+<h2 id="artifact-1-coherence-map-cm">Artifact 1 — Coherence Map (CM)<a class="headerlink" href="#artifact-1-coherence-map-cm" title="Permanent link">&para;</a></h2>
+<p>File: <code>artifact_1_coherence_map.csv</code></p>
+<p>Purpose:
+- Rank regimes by post-normalization dominance
+- Show concentration signals (where mass lives)</p>
+<p>Read it like:
+- “Which regimes explain most of the mass?”
+- “Did the dominant regimes change between baseline and exception-only?”</p>
+<h2 id="artifact-2-active-set-as">Artifact 2 — Active Set (AS)<a class="headerlink" href="#artifact-2-active-set-as" title="Permanent link">&para;</a></h2>
+<p>File: <code>artifact_2_active_set.csv</code></p>
+<p>Purpose:
+- Show retained items and their normalized shares</p>
+<p>Read it like:
+- global share answers “how much of the whole”
+- local share answers “how much within its regime”</p>
+<h2 id="artifact-3-trace-report-tr">Artifact 3 — Trace Report (TR)<a class="headerlink" href="#artifact-3-trace-report-tr" title="Permanent link">&para;</a></h2>
+<p>File: <code>artifact_3_trace_report.jsonl</code></p>
+<p>Purpose:
+- Explain why items stayed or left
+- Provide provenance for decisions</p>
+<p>Read it like:
+- a decision log that can be audited line-by-line</p>
+<h2 id="artifact-4-error-budget-eb">Artifact 4 — Error Budget (EB)<a class="headerlink" href="#artifact-4-error-budget-eb" title="Permanent link">&para;</a></h2>
+<p>File: <code>artifact_4_error_budget.json</code></p>
+<p>Purpose:
+- Log discarded mass by reason and regime
+- Guarantee “loss never disappears silently”</p>
+<p>If you only read one thing for accountability, read EB.</p>
+<h2 id="run-the-example-open-artifacts-quickly">Run the example (open artifacts quickly)<a class="headerlink" href="#run-the-example-open-artifacts-quickly" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span> <span class="n">scripts</span><span class="p">\</span><span class="n">inspect_huf_artifacts</span><span class="p">.</span><span class="n">py</span> <span class="p">-</span><span class="n">-out</span> <span class="n">out</span><span class="p">/</span><span class="n">traffic_anomaly_demo</span>
+</code></pre></div>
+<p>Next steps:
+- <strong>04 Running examples</strong> for hands-on workflows</p>
 
 
 

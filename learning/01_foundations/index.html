@@ -3380,6 +3380,58 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#definitions-minimal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Definitions (minimal)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retention-optional-but-common" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retention (optional, but common)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toy-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toy example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-the-example-inspect-any-out-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run the example (inspect any out folder)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3465,7 +3517,81 @@
 
 
 <h1 id="foundations">Foundations<a class="headerlink" href="#foundations" title="Permanent link">&para;</a></h1>
-<p>(TBD)</p>
+<p>What this page is:
+A plain-language definition of the core quantities HUF uses: regimes, weights, normalization, retention, and “discarded mass”.</p>
+<p>Why it matters:
+Without crisp definitions, teams talk past each other. This module gives the shared vocabulary.</p>
+<p>What you’ll see:
+- Minimal symbols and definitions
+- A toy example you can compute by hand
+- How retention changes interpretation (without hiding loss)</p>
+<h2 id="definitions-minimal">Definitions (minimal)<a class="headerlink" href="#definitions-minimal" title="Permanent link">&para;</a></h2>
+<p>Let each item have:
+- a <strong>score</strong> (nonnegative weight)
+- a <strong>regime label</strong> <code>r</code> (tenant/source/category)</p>
+<p>Per regime:
+- <strong>regime mass:</strong> <code>w_r = Σ score_i (for items in regime r)</code>
+- <strong>normalized regime share:</strong> <code>p_r = w_r / Σ w_r</code></p>
+<p>If you normalize per regime (local view):
+- item local share: <code>ρ_local(i) = score_i / Σ(score_j in same regime)</code></p>
+<p>If you normalize globally:
+- item global share: <code>ρ_global(i) = score_i / Σ(all scores)</code></p>
+<h2 id="retention-optional-but-common">Retention (optional, but common)<a class="headerlink" href="#retention-optional-but-common" title="Permanent link">&para;</a></h2>
+<p>Retention keeps the most-mass items under a rule (e.g., “keep items until 99% mass retained”).</p>
+<p>Key rule:</p>
+<blockquote>
+<p>Retention must produce an <strong>explicit Error Budget</strong>.</p>
+</blockquote>
+<p>That means:
+- discarded items are not “gone”
+- they are accounted for (by reason and regime)</p>
+<h2 id="toy-example">Toy example<a class="headerlink" href="#toy-example" title="Permanent link">&para;</a></h2>
+<p>Items:</p>
+<table>
+<thead>
+<tr>
+<th>item</th>
+<th>regime</th>
+<th style="text-align: right;">score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>R1</td>
+<td style="text-align: right;">80</td>
+</tr>
+<tr>
+<td>B</td>
+<td>R1</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>C</td>
+<td>R2</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr>
+<td>D</td>
+<td>R2</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+<p>Regime masses:
+- <code>w_R1 = 100</code>, <code>w_R2 = 10</code>
+- <code>p_R1 = 100/110</code>, <code>p_R2 = 10/110</code></p>
+<p>If we retain only items with score ≥ 10:
+- kept: A, B, C
+- discarded: D (but logged in EB)</p>
+<p>Interpretation:
+- the retained distribution is tighter
+- but the EB shows exactly what was excluded and why</p>
+<h2 id="run-the-example-inspect-any-out-folder">Run the example (inspect any out folder)<a class="headerlink" href="#run-the-example-inspect-any-out-folder" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span> <span class="n">scripts</span><span class="p">\</span><span class="n">inspect_huf_artifacts</span><span class="p">.</span><span class="n">py</span> <span class="p">-</span><span class="n">-out</span> <span class="n">out</span><span class="p">/</span><span class="n">traffic_phase_demo</span>
+</code></pre></div>
+<p>Next steps:
+- Go to <strong>02 Formal core</strong> to see the conservative mathematical structure (without overclaim).</p>
 
 
 

@@ -2,8 +2,14 @@
   "id": "07_advanced_math",
   "title": "Advanced Math",
   "level": 7,
-  "prereqs": [],
-  "outcomes": [],
+  "prereqs": [
+    "06_partner_pilots"
+  ],
+  "outcomes": [
+    "Explain the module concepts in plain language",
+    "Run at least one command/example relevant to the module",
+    "Interpret CM/AS/TR/EB outputs at the appropriate level"
+  ],
   "status": "draft",
   "weights": {
     "op": 0.8,

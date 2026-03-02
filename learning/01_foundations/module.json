@@ -2,8 +2,14 @@
   "id": "01_foundations",
   "title": "Foundations",
   "level": 1,
-  "prereqs": [],
-  "outcomes": [],
+  "prereqs": [
+    "00_orientation"
+  ],
+  "outcomes": [
+    "Explain the module concepts in plain language",
+    "Run at least one command/example relevant to the module",
+    "Interpret CM/AS/TR/EB outputs at the appropriate level"
+  ],
   "status": "draft",
   "weights": {
     "op": 0.8,

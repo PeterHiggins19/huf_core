@@ -2,8 +2,14 @@
   "id": "02_formal_core",
   "title": "Formal Core",
   "level": 2,
-  "prereqs": [],
-  "outcomes": [],
+  "prereqs": [
+    "01_foundations"
+  ],
+  "outcomes": [
+    "Explain the module concepts in plain language",
+    "Run at least one command/example relevant to the module",
+    "Interpret CM/AS/TR/EB outputs at the appropriate level"
+  ],
   "status": "draft",
   "weights": {
     "op": 0.8,

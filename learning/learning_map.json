@@ -1,46 +1,47 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "track": "HUF Learning Path",
   "modules": [
     {
       "id": "00_orientation",
-      "title": "Orientation",
+      "title": "00 Orientation",
       "path": "docs/learning/00_orientation/index.md"
     },
     {
       "id": "01_foundations",
-      "title": "Foundations",
+      "title": "01 Foundations",
       "path": "docs/learning/01_foundations/index.md"
     },
     {
       "id": "02_formal_core",
-      "title": "Formal Core",
+      "title": "02 Formal Core",
       "path": "docs/learning/02_formal_core/index.md"
     },
     {
       "id": "03_artifacts",
-      "title": "Artifacts",
+      "title": "03 Artifacts",
       "path": "docs/learning/03_artifacts/index.md"
     },
     {
       "id": "04_running_examples",
-      "title": "Running Examples",
+      "title": "04 Running Examples",
       "path": "docs/learning/04_running_examples/index.md"
     },
     {
       "id": "05_case_studies",
-      "title": "Case Studies",
+      "title": "05 Case Studies",
       "path": "docs/learning/05_case_studies/index.md"
     },
     {
       "id": "06_partner_pilots",
-      "title": "Partner Pilots",
+      "title": "06 Partner Pilots",
       "path": "docs/learning/06_partner_pilots/index.md"
     },
     {
       "id": "07_advanced_math",
-      "title": "Advanced Math",
+      "title": "07 Advanced Math",
       "path": "docs/learning/07_advanced_math/index.md"
     }
-  ]
+  ],
+  "generated": "2026-03-01"
 }
