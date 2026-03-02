@@ -143,7 +143,7 @@
       "huf_version": "1.1.8",
       "doc_version": "v0.1.0",
       "responsible_operator": "Peter Higgins",
-      "canonical_path": "notes/code_snippets/huf_code/huf_diagnostic.jsx",
+      "canonical_path": "notes/current_documents/staged/HUF.DRAFT.SOFTWARE.CODE.HUF_DIAGNOSTIC/huf_diagnostic.jsx",
       "codes": [
         "SOFTWARE",
         "UI"
@@ -165,7 +165,7 @@
         "op_min": 0.51,
         "tool_max": 0.49
       },
-      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/code_snippets/huf_code/huf_diagnostic.jsx",
+      "source_file": "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/current_documents/staged/HUF.DRAFT.SOFTWARE.CODE.HUF_DIAGNOSTIC/huf_diagnostic.jsx",
       "source_type": "text"
     },
     {
@@ -2935,5 +2935,9 @@
       "source_type": "text"
     }
   ],
-  "collisions": {}
+  "collisions": {
+    "HUF.DRAFT.SOFTWARE.CODE.HUF_DIAGNOSTIC": [
+      "D:/GitHub/HUF-Core/huf_core_github_v1.1.8_no_inputs/notes/current_documents/staged/HUF.DRAFT.SOFTWARE.CODE.HUF_DIAGNOSTIC/huf_diagnostic.jsx"
+    ]
+  }
 }
